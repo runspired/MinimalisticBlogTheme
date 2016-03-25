@@ -16,8 +16,9 @@
              
           </main>
           <aside class="author">
-
-                {{author.image class="profile-image"}}
+            {{#if author.image}}
+              <img class="profile-image" src="{{author.image}}" title="{{author.name}} alt="Blog Logo" /></a>
+            {{/if}}
             <p class="name">by <strong>{{author.name}}</strong></p>
             <p class="address">{{author.location}}</p>
             {{#if author.website}}
