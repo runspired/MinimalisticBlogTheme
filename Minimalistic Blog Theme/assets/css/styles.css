@@ -501,23 +501,15 @@ hr {
   text-align: center;
   position: relative;
   height: 400px;
-  transition: all 0.3s ease; }
-  
-.site-header-img {
-  height: 400px;
-  display: block;
-  position: relative;
-  float: left;
+  transition: all 0.3s ease;
+  overflow: hidden;
 }
 
-.site-header h2 {
-  margin: 0; }
-
-.site-logo-img {
-  width: 118px;
-  height: 118px;
-  float: left;
-  margin: 11px;
+.site-header-img {
+  min-height: 400px;
+  display: block;
+  position: relative;
+  width: 100%;
 }
 
 .profile-image {
