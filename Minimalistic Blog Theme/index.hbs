@@ -17,5 +17,19 @@
               {{pagination}}
              
           </main>
+          
+          <aside class="author">
+            {{#if @blog.logo}}
+              <img class="profile-image" src="{{@blog.logo}}" title="{{@blog.name}} alt="Blog Logo" /></a>
+            {{/if}}
+            <p class="name">by <strong>{{@blog.name}}</strong></p>
+            
+            <p>{{@blog.description}}</p>
+
+            <ul class="social">
+              <li><a class="icon-twitter" href="http://twitter.com/runspired" title="Follow me on Twitter"></a></li>
+              <li><a class="icon-linkedin" href="https://www.linkedin.com/in/runspired" title="Follow me on LinkedIn"></a></li>
+
+          </aside>
 
         </div>
