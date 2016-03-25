@@ -16,20 +16,19 @@
              
           </main>
           <aside class="author">
-            {{#author}}
-                {{image class="profile-image"}}
-            <p class="name">by <strong>{{name}}</strong></p>
-            <p class="address">{{location}}</p>
-            {{#if website}}
-                <p class="link"><a href="{{website}}" title="{{name}} - Javascript Engineer">{{website}}</a></p>
+
+                {{author.image class="profile-image"}}
+            <p class="name">by <strong>{{author.name}}</strong></p>
+            <p class="address">{{author.location}}</p>
+            {{#if author.website}}
+                <p class="link"><a href="{{author.website}}" title="{{author.name}} - Javascript Engineer">{{author.website}}</a></p>
             {{/if}}
             
-            <p>{{bio}}</p>
+            <p>{{author.bio}}</p>
             
             <ul class="social">
               <li><a class="icon-twitter" href="http://twitter.com/runspired" title="Follow me on Twitter"></a></li>
               <li><a class="icon-linkedin" href="https://www.linkedin.com/in/runspired" title="Follow me on LinkedIn"></a></li>
-            </ul>
-            {{/author}}
+
           </aside>
         </div>
