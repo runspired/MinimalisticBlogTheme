@@ -16,6 +16,7 @@
              
           </main>
           <aside class="author">
+          {{#post}}
             {{#if author.image}}
               <img class="profile-image" src="{{author.image}}" title="{{author.name}} alt="Blog Logo" /></a>
             {{/if}}
@@ -30,6 +31,6 @@
             <ul class="social">
               <li><a class="icon-twitter" href="http://twitter.com/runspired" title="Follow me on Twitter"></a></li>
               <li><a class="icon-linkedin" href="https://www.linkedin.com/in/runspired" title="Follow me on LinkedIn"></a></li>
-
+          {{/post}}
           </aside>
         </div>
