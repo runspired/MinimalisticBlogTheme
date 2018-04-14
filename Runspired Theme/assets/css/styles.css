@@ -449,12 +449,12 @@ th {
    -----------------------------------------------------------------------------*/
 body {
   color: #222222;
-  font-family: "Noto Serif", serif;
+  font-family: sans-serif;
   font-weight: 400;
   transition: all 0.3s ease; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-weight: 300; }
 
 a {
@@ -532,7 +532,7 @@ hr {
 .post-template h4,
 .post-template h5,
 .post-template h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-weight: 700; }
 
 .post {
@@ -546,7 +546,7 @@ hr {
 
 .post-info {
   color: #a2a2a2;
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-weight: 300;
   font-size: 18px;
   margin-bottom: 40px;
@@ -558,7 +558,7 @@ hr {
 
 .share-buttons li {
   display: inline;
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-weight: 300;
   font-size: 13px;
   color: #979797;
@@ -577,7 +577,7 @@ hr {
   display: inline-block; }
 
 .tag-title {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-weight: 300;
   border-bottom: 1px solid #ececec;
   margin-bottom: 40px; }
@@ -608,7 +608,7 @@ hr {
   -moz-border-radius: 3px;
   border-radius: 3px;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-weight: 300;
   line-height: 35px;
   font-size: 13px;
@@ -645,12 +645,12 @@ hr {
   text-align: center;
   line-height: 35px;
   font-size: 13px;
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-weight: 300;
   color: #979797; }
 
 .author {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-weight: 300; }
 
 .author p {
@@ -683,7 +683,7 @@ hr {
 .main-footer {
   background-color: #f3f3f3;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-weight: 300;
   color: #a2a2a2; }
 
