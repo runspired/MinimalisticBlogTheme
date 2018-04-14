@@ -357,6 +357,8 @@ th {
 
 @font-face {
   font-family: 'fontello';
+  src: url("../font/fontello.eot?40607460");
+  src: url("../font/fontello.eot?40607460#iefix") format("embedded-opentype"), url("../font/fontello.woff?40607460") format("woff"), url("../font/fontello.ttf?40607460") format("truetype"), url("../font/fontello.svg?40607460#fontello") format("svg");
   font-weight: normal;
   font-style: normal; }
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
