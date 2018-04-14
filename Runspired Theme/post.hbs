@@ -1,38 +1,20 @@
 {{!< default}}
 
-        <div class="container clearfix">
-          <main role="main" class="content">
-              
-              {{#post}}
-              <article class="{{post_class}} post">
+<div class="container clearfix">
+    <main role="main" class="content">
+
+        {{#post}}
+            <article class="{{post_class}} post">
                 <a class="btn" href="{{@blog.url}}" title="Back to homepage">&laquo; Back to home</a>
                 <h1><a href="{{url}}" title="{{title}}">{{title}}</a></h1>
                 <footer class="post-info">Posted on <span class="post-meta"><time datetime="{{date published_at format="YYYY-MM-DD"}}">{{date published_at format="Do MMMM YYYY"}}</time> {{tags separator=", " prefix="Tagged in "}}</span></footer>
-                
-                {{content}}
-                
-              </article>
-              {{/post}}
-             
-          </main>
-          <aside class="author">
-          {{#post}}
-            {{#if author.profile_image}}
-              <img class="profile-image" src="{{author.profile_image}}" title="{{author.name}}" alt="Blog Logo">
-            {{/if}}
-            <p class="name">by <strong>{{author.name}}</strong></p>
-            <p class="address">{{author.location}}</p>
-            {{#if author.website}}
-                <p class="link"><a href="{{author.website}}" title="{{author.name}} - Javascript Engineer">{{author.website}}</a></p>
-            {{/if}}
-            
-            <p>{{author.bio}}</p>
-            
-            <ul class="social">
-              <li><a class="icon-twitter" href="http://twitter.com/runspired" title="Follow me on Twitter"></a></li>
-              <li><a class="icon-linkedin" href="https://www.linkedin.com/in/runspired" title="Follow me on LinkedIn"></a></li>
-            </ul>
 
-          {{/post}}
-          </aside>
-        </div>
+                {{content}}
+
+            </article>
+        {{/post}}
+
+    </main>
+
+    {{> "author-aside-preview"}}
+</div>

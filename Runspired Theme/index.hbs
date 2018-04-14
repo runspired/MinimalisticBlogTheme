@@ -1,34 +1,20 @@
 {{!< default}}
 
-        <div class="container clearfix">
-          <main role="main" class="content">
-              {{#foreach posts}}  
-              <article class="{{post_class}} post">
+<div class="container clearfix">
+    <main role="main" class="content">
+        {{#foreach posts}}
+            <article class="{{post_class}} post">
                 <h2><a href="{{url}}" title="{{title}}">{{title}}</a></h2>
                 <footer class="post-info">Posted on <span class="post-meta"><time datetime="{{date published_at format="YYYY-MM-DD"}}">{{date published_at format="Do MMMM YYYY"}}</time> {{tags separator=", " prefix="Tagged in "}}</span></footer>
-                
+
                 <p>{{excerpt characters="600"}}&hellip;</p>
-                
+
                 <a href="{{url}}" title="{{title}}">Read more &raquo;</a>
-              </article>
-              {{/foreach}}
+            </article>
+        {{/foreach}}
 
-              {{pagination}}
-          </main>
-          
-          <aside class="author">
-            {{#if @blog.logo}}
-              <img class="profile-image" src="{{@blog.logo}}" title="{{@blog.title}}" alt="Blog Brand Logo">
-            {{/if}}
-            <p class="name">by <strong>{{@blog.title}}</strong></p>
-            
-            <p>{{@blog.description}}</p>
+        {{pagination}}
+    </main>
 
-            <ul class="social">
-              <li><a class="icon-twitter" href="http://twitter.com/runspired" title="Follow me on Twitter"></a></li>
-              <li><a class="icon-linkedin" href="https://www.linkedin.com/in/runspired" title="Follow me on LinkedIn"></a></li>
-            </ul>
-
-          </aside>
-
-        </div>
+    {{> "author-aside-preview"}}
+</div>

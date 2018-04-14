@@ -1,0 +1,14 @@
+<aside class="author">
+    {{#if @blog.logo}}
+        <img class="profile-image" src="{{@blog.logo}}" title="{{@blog.title}}" alt="Chris Thoburn">
+    {{/if}}
+    <p class="name">by <strong>{{@blog.title}}</strong></p>
+    <p class="address">Oakland, CA</p>
+
+    <p>{{@blog.description}}</p>
+
+    <ul class="social">
+        <li><a class="icon-twitter" href="http://twitter.com/runspired" title="Follow me on Twitter"></a></li>
+        <li><a class="icon-linkedin" href="https://www.linkedin.com/in/runspired" title="Follow me on LinkedIn"></a></li>
+    </ul>
+</aside>
