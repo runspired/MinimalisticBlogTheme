@@ -513,10 +513,12 @@ hr {
 }
 
 .profile-image {
-  width: 118px;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  border-radius: 100%; }
+  width: 100%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  
+}
 
 .post h2 {
   margin-top: 0; }
@@ -656,13 +658,14 @@ hr {
   font-weight: 300; }
 
 .author p {
-  margin: 0;
+  margin: 0.5rem 0;
   padding: 0;
   font-size: 12px; }
 
 .author p.name {
   font-size: 14px;
-  margin: 10px 0; }
+  margin: 1rem 0;
+}
 
 .author p.address {
   color: #979797; }
