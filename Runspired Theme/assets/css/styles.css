@@ -372,7 +372,7 @@ th {
 }
 */
 [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "fontello";
+  font-family: "runspired-social";
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -396,47 +396,39 @@ th {
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
 .icon-twitter:before {
-  content: '\e800'; }
+  content: '\e804'; }
 
 /* '' */
 .icon-rss:before {
-  content: '\e801'; }
+  content: '\e803'; }
 
 /* '' */
 .icon-menu:before {
-  content: '\e802'; }
+  content: '\e806'; }
 
 /* '' */
-.icon-facebook-squared:before {
-  content: '\e803'; }
-
-/* '' */
-.icon-gplus:before {
-  content: '\e804'; }
+.icon-facebook:before {
+  content: '\e802'; }
 
 /* '' */
 .icon-linkedin:before {
-  content: '\e805'; }
-
-/* '' */
-.icon-behance:before {
-  content: '\e806'; }
+  content: '\e801'; }
 
 /* '' */
 .icon-cancel:before {
   content: '\e807'; }
 
-/* '' */
-.icon-dribbble:before {
-  content: '\e808'; }
-
 /* '' */
 .icon-instagram:before {
-  content: '\e809'; }
+  content: '\e800'; }
+
+/* '' */
+.icon-strava:before {
+  content: '\e805'; }
 
 /* '' */
 .icon-github:before {
-  content: '\e80a'; }
+  content: '\e808'; }
 
 /* '' */
 /* -----------------------------------------------------------------------------
